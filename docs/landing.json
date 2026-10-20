@@ -1,0 +1,60 @@
+{
+  "seo_title": "Exact duplicate file finder for macOS",
+  "seo_description": "Free, open-source macOS app that finds exact duplicate files with SHA-256, shows a keep-one preview and moves extra copies to the Trash. No network access.",
+  "hero_title_line1": "Find exact duplicates.",
+  "hero_title_accent": "Trash only the extras.",
+  "hero_sub": "Drop in your folders and TwinFileSweep groups byte-identical files, marks which copy to keep and moves the rest to the Trash. Press ⌘O to add a folder, ⌘↩ to scan.",
+  "features_title": "One job, done carefully.",
+  "features_sub": "Everything below is in the app today, running entirely on your Mac.",
+  "features": [
+    {
+      "icon": "bolt",
+      "title": "Reads only likely candidates",
+      "desc": "Files are grouped by size, then by a hash of their first and last 64 KB, then by a full streaming SHA-256. Hashing runs in parallel with a progress bar and a Cancel button."
+    },
+    {
+      "icon": "eye",
+      "title": "Clear keep-one preview",
+      "desc": "Each group expands to show every copy with its folder, modified date and size. The copy you keep is labelled Keep, and copies marked for removal are dimmed."
+    },
+    {
+      "icon": "sliders",
+      "title": "Auto-select rules",
+      "desc": "Keep the oldest, the newest, the shortest path or the copy in the first folder you added. Changing the rule re-applies it right away."
+    },
+    {
+      "icon": "shield",
+      "title": "Safe by design",
+      "desc": "At least one copy in every group always stays unselected, and files go to the Trash after a confirmation that shows the space you will free."
+    },
+    {
+      "icon": "folder",
+      "title": "Sensible scan options",
+      "desc": "Drag in folders or press ⌘O, and set a minimum file size, hidden files and package handling. Symlinks, aliases and empty files are skipped, and hard links count as one file."
+    },
+    {
+      "icon": "lock",
+      "title": "Offline and native",
+      "desc": "Built with SwiftUI and Apple frameworks only, with no network calls, analytics or third-party dependencies."
+    }
+  ],
+  "permissions_step": "If you scan a protected folder such as Desktop, Documents or Downloads, allow the standard macOS prompt, or enable it later in System Settings › Privacy & Security › Files and Folders.",
+  "faq": [
+    {
+      "q": "Is TwinFileSweep really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. If it saved you some disk space, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "No Accessibility, Screen Recording, Microphone, Camera or network access. It only reads folders you add by drag and drop or the open panel, and macOS may ask for Files and Folders access for protected locations like Documents."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Nothing leaves your Mac. The app saves only your folder list, minimum size, hidden and package options and keep rule in its local preferences. Trashed files stay recoverable from the Trash."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization needs a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source."
+    }
+  ]
+}

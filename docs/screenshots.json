@@ -1,0 +1,5 @@
+[
+  {"file":"01-duplicate-groups.png","caption":"Scan results group exact duplicates across three folders, with the oldest copy marked Keep and the extras pre-selected for removal, plus a 16.6 MB reclaimable total.","alt":"TwinFileSweep main window listing duplicate file groups"},
+  {"file":"02-settings.png","caption":"Settings let you set default scan options: minimum file size, hidden files, packages, and the auto-select rule.","alt":"TwinFileSweep Settings window"},
+  {"file":"03-trash-confirmation.png","caption":"Before anything is removed, a confirmation shows how many files go to the Trash and how much space will be freed.","alt":"Move to Trash confirmation dialog"}
+]

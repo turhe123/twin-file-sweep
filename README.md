@@ -1,5 +1,7 @@
 # TwinFileSweep
 
+**🌐 Website:** [turhe123.github.io/twin-file-sweep](https://turhe123.github.io/twin-file-sweep/)
+
 Find exact duplicate files in chosen folders and trash the extra copies safely with a clear keep-one preview.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -33,7 +35,17 @@ Not included: similar-image or fuzzy matching. Rows show standard file icons, no
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-duplicate-groups.png" alt="TwinFileSweep main window listing duplicate file groups" width="720"></p>
+
+<p align="center"><em>Scan results group exact duplicates across three folders, with the oldest copy marked Keep and the extras pre-selected for removal, plus a 16.6 MB reclaimable total.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="TwinFileSweep Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you set default scan options: minimum file size, hidden files, packages, and the auto-select rule.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-trash-confirmation.png" alt="Move to Trash confirmation dialog" width="560"></p>
+
+<p align="center"><em>Before anything is removed, a confirmation shows how many files go to the Trash and how much space will be freed.</em></p>
 
 ## Install
 
